@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@400;500;600&display=swap');
+
+.waitlist-form-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.waitlist-form-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.waitlist-form-container p {
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #555;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.waitlist-form-container .cta-button {
+  margin-top: 20px;
+}
+
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.waitlist-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 500;
+  color: #444;
+}
+
+.waitlist-form input[type="text"],
+.waitlist-form input[type="email"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.waitlist-form button {
+  background-color: #6750a4;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.waitlist-form button:hover {
+  background-color: #7b63cc;
+}
